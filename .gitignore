@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Advance Calculator
+/Assignment_1
+/Calculator
+/CS_Assignment_2/.vs/CS_Assignment_2
+/CS_Assignment_2/bin/Debug/net6.0
+/CS_Assignment_2/obj
