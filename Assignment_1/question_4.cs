@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Assignment_1
 {
-    internal class question_4
+    internal class BankAcc
     {
         string name = "null";
         string Acc_type = "null";
@@ -37,7 +37,7 @@ namespace Assignment_1
 
     }
 
-    class Bank : question_4
+    class Bank : BankAcc
     {
         public void OpenBankAccount(string uName, string aType)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    public class Question_1
+    public class String_operation
     {
         public void Question1()
         {

@@ -5,7 +5,7 @@ namespace Assignment_1
     {
         India, AUSTRALIA, USA, JAPAN, FRANCE, ENGLAND
     }
-    internal class Question_3
+    internal class Practice_Enum
     {     
        public void Enum_Country()
        {

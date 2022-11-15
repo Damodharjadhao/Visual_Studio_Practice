@@ -2,11 +2,11 @@
 
 namespace Assignment_1
 {
-    internal class Question_2
+    internal class EmailValidation
     {
-        public void Question2()
+        public void Check_Email()
         {
-            string email = "abc@gmail.com"; 
+            string email = "damodhar@gmail.com"; 
             int at=0;
             int dot=0;
             char[] E= email.ToCharArray();
@@ -21,7 +21,7 @@ namespace Assignment_1
                 }
                 
             }
-            if(at>0 && dot > 0)
+            if((at>0 && at < 2) && dot> 0)
             {
                 Console.WriteLine("Email is valid");
             }
@@ -33,9 +33,4 @@ namespace Assignment_1
             Console.WriteLine("");
         }
     }
-
-
-
-
-
 }
