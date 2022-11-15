@@ -12,10 +12,10 @@ namespace WebAPICore.Controllers
         public IEnumerable<string> Get()
         {
             return new string[] { 
-                Calculator_Library.Class1.Add(30,20),
-                Calculator_Library.Class1.Sub(30,20),
-                Calculator_Library.Class1.Multi(30,10),
-                Calculator_Library.Class1.Div(30,5)
+                Calculator_Library.Calculator_function.Add(30,20),
+                Calculator_Library.Calculator_function.Sub(30,20),
+                Calculator_Library.Calculator_function.Multi(30,10),
+                Calculator_Library.Calculator_function.Div(30,5)
             };
         }
     }

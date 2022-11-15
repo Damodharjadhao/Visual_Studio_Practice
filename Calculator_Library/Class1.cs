@@ -1,6 +1,6 @@
 ﻿namespace Calculator_Library
 {
-    public class Class1
+    public class Calculator_function
     {
         public static string Add(int n1,int n2)
         {
