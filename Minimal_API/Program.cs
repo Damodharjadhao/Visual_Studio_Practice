@@ -1,3 +1,5 @@
+using Minimal_API;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
@@ -14,7 +16,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/calculator", (Calculator calc) =>
+CalculatorFunctions calc= new CalculatorFunctions();
+
+app.MapPost("/calculator", (CalculatorFunctions calc) =>
 {
     switch (calc.OP)
     {
@@ -33,25 +37,4 @@ app.MapPost("/calculator", (Calculator calc) =>
 
 app.Run();
 
-class Calculator
-    {
-    int n1;
-    int n2;
-    string? op;
 
-    public int N1
-    {
-        get { return n1; }
-        set { n1 = value; }
-    }
-    public int N2 { 
-        get { return n2; } 
-        set { n2 = value; }
-        }
-
-    public string? OP
-    {
-        get { return op; }
-        set { op = value; }
-    }
-    }
