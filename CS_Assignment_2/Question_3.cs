@@ -3,33 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace CS_Assignment_2
 {
-    internal class Question_3
+    internal class Linq_practice
     {
-        Double id;
-        string? Name;
-        string? Education;
+        double id;
+        string? name;
+        string? education;
+
+        public double Id { get { return id; } set { id = value; } }
+        public string Name{ get {return name;} set { name = value; } }
+        public string Education{ get {return education;} set { education = value; } }
+
 
         public override string ToString()
         {
-            return id + " " + Name + " " +
+            return Id + " " + Name + " " +
                    Education;
         }
+    }
+
+    class Student:Linq_practice
+    {
 
         public void showStudent()
         {
-            List<Question_3> students = new List<Question_3>
+            List<Linq_practice> students = new List<Linq_practice>
             {
-                new Question_3{id=1,Name="Abhishek",Education="CSE" },
-                new Question_3{id=3,Name="Damodhar",Education="B.Tech" },
-                new Question_3{id=3,Name="Sagar",Education="B.Com" }
+                new Linq_practice{Id=1,Name="Abhishek",Education="CSE" },
+                new Linq_practice{Id=3,Name="Damodhar",Education="B.Tech" },
+                new Linq_practice{Id=3,Name="Sagar",Education="B.Com" }
             };
 
-            IEnumerable<Question_3> stdList = from std in students select std;
+            IEnumerable<Linq_practice> stdList = from std in students select std;
 
-            foreach(Question_3 s in stdList)
+            foreach (Linq_practice s in stdList)
             {
                 Console.WriteLine(s.ToString());
             }

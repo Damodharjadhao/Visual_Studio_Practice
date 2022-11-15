@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS_Assignment_2
 {
-    internal class Question_2
+    internal class Exception_Handle
     {
         public void NullReferenceExample(string str)
         {

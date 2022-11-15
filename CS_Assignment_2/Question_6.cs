@@ -17,7 +17,7 @@ namespace CS_Assignment_2
             }
 
     }
-    internal class Question_6
+    internal class Generic_practice
     {
         public void Show()
         {

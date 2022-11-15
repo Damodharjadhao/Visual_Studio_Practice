@@ -6,40 +6,52 @@ using System.Threading.Tasks;
 
 namespace CS_Assignment_2
 {
-    internal class Question_5
-    { 
+
+    class Employee:LinqOperation
+    {
         int emp_id;
         string Emp_Name;
         int Emp_Salary;
         string Emp_Department;
 
+        public int EmpID { get { return emp_id; } set { emp_id = value; } }
+        public string EmpName { get { return Emp_Name; } set { Emp_Name = value; } }
+
+        public int EmpSalary { get { return Emp_Salary; } set { Emp_Salary = value; } }
+
+        public string EmpDept { get { return Emp_Department; } set { Emp_Department = value; } }
+
+    }
+
+    internal class LinqOperation
+    {
         public void ShowEmpData()
         {
-            List<Question_5> employee = new List<Question_5>()
-    {
-        new Question_5{emp_id = 101, Emp_Name = "Amit",
-                 Emp_Salary = 50000,Emp_Department = "XYZ"},
-        new Question_5{emp_id = 102, Emp_Name = "Poonam",
-                 Emp_Salary = 65000,Emp_Department = "ABC"},
-        new Question_5{emp_id = 103, Emp_Name = "Priya",
-                 Emp_Salary = 45000,Emp_Department = "ABC"},
-        new Question_5{emp_id = 104, Emp_Name = "Sita",
-                 Emp_Salary = 20000,Emp_Department = "XYZ"},
-        new Question_5{emp_id = 105, Emp_Name = "kiran",
-                 Emp_Salary = 70000,Emp_Department = "ABC"},
-        new Question_5{emp_id = 106, Emp_Name = "Sohan",
-                 Emp_Salary = 40000,Emp_Department = "XYZ"},
-    };
+            List<Employee> employee = new List<Employee>()
+        {
+        new Employee{EmpID = 101, EmpName = "Amit",
+                 EmpSalary = 50000,EmpDept = "XYZ"},
+        new Employee{EmpID = 102, EmpName = "Poonam",
+                 EmpSalary = 65000,EmpDept = "ABC"},
+        new Employee{EmpID = 103, EmpName = "Priya",
+                 EmpSalary = 45000,EmpDept = "ABC"},
+        new Employee{EmpID = 104, EmpName = "Sita",
+                 EmpSalary = 20000,EmpDept = "XYZ"},
+        new Employee{EmpID = 105, EmpName = "kiran",
+                 EmpSalary = 70000,EmpDept = "ABC"},
+        new Employee{EmpID = 106, EmpName = "Sohan",
+                 EmpSalary = 40000,EmpDept = "XYZ"},
+        };
 
-            var result_set = employee.Where(emp => emp.Emp_Department == "XYZ").OrderByDescending(
-                                         sal => sal.Emp_Salary);
+            var result_set = employee.Where(emp => emp.EmpDept == "XYZ").OrderByDescending(
+                                         sal => sal.EmpSalary);
 
-            foreach (Question_5 emp in result_set)
+            foreach (Employee emp in result_set)
             {
-                Console.WriteLine(emp.emp_id + " " +
-                                  emp.Emp_Name + " " +
-                                  emp.Emp_Salary + " " +
-                                  emp.Emp_Department);
+                Console.WriteLine(emp.EmpID + " " +
+                                  emp.EmpName + " " +
+                                  emp.EmpSalary + " " +
+                                  emp.EmpDept);
             }
         }
     }

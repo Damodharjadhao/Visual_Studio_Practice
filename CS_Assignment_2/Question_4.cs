@@ -7,7 +7,7 @@ using System.IO;
 
 namespace CS_Assignment_2
 {
-    internal class Question_4
+    internal class File_operation
     {
         public void ReadFile()
         {
