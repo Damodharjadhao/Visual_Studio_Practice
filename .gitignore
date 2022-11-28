@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Advance Calculator
+/Assignment_1
+/Calculator
+/CS_Assignment_2
+/Minimal_API/.vs/Minimal_API
+/WebAPICore/.vs/WebAPICore/FileContentIndex
+/Ado_Crud
+/Dapper_Assignment
