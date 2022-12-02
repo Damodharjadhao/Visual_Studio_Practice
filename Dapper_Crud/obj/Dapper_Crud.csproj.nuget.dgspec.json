@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Damodhar.Jadhao\\Desktop\\Dotnet_practice\\Dapper_Crud\\Dapper_Crud.csproj": {}
+    "C:\\Users\\Damodhar.Jadhao\\Desktop\\C#_Practice\\Dapper_Crud\\Dapper_Crud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Damodhar.Jadhao\\Desktop\\Dotnet_practice\\Dapper_Crud\\Dapper_Crud.csproj": {
+    "C:\\Users\\Damodhar.Jadhao\\Desktop\\C#_Practice\\Dapper_Crud\\Dapper_Crud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Damodhar.Jadhao\\Desktop\\Dotnet_practice\\Dapper_Crud\\Dapper_Crud.csproj",
+        "projectUniqueName": "C:\\Users\\Damodhar.Jadhao\\Desktop\\C#_Practice\\Dapper_Crud\\Dapper_Crud.csproj",
         "projectName": "Dapper_Crud",
-        "projectPath": "C:\\Users\\Damodhar.Jadhao\\Desktop\\Dotnet_practice\\Dapper_Crud\\Dapper_Crud.csproj",
+        "projectPath": "C:\\Users\\Damodhar.Jadhao\\Desktop\\C#_Practice\\Dapper_Crud\\Dapper_Crud.csproj",
         "packagesPath": "C:\\Users\\Damodhar.Jadhao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Damodhar.Jadhao\\Desktop\\Dotnet_practice\\Dapper_Crud\\obj\\",
+        "outputPath": "C:\\Users\\Damodhar.Jadhao\\Desktop\\C#_Practice\\Dapper_Crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Damodhar.Jadhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
