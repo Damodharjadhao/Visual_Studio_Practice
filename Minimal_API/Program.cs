@@ -29,7 +29,7 @@ app.MapPost("/calculator", (CalculatorFunctions calc) =>
         case "*":
             return Results.Json(calc.N1 * calc.N2);
         case "/":
-            return Results.Json(calc.N1 / calc.N2);
+            return Results.Json(calc.N1 / calc.N2 );
     }
     return Results.Json("Opration not supported");
 });
