@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICore", "WebAPICore.csproj", "{E2391B8A-3615-4427-8AF0-1562863B391C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_Library", "..\Calculator_Library\Calculator_Library.csproj", "{29D401F9-6E87-4064-A6E0-D4766D8C3F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2391B8A-3615-4427-8AF0-1562863B391C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2391B8A-3615-4427-8AF0-1562863B391C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2391B8A-3615-4427-8AF0-1562863B391C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2391B8A-3615-4427-8AF0-1562863B391C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D401F9-6E87-4064-A6E0-D4766D8C3F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D401F9-6E87-4064-A6E0-D4766D8C3F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D401F9-6E87-4064-A6E0-D4766D8C3F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D401F9-6E87-4064-A6E0-D4766D8C3F26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09B06BDF-7014-46C1-AB37-6963E0389CC8}
+	EndGlobalSection
+EndGlobal
